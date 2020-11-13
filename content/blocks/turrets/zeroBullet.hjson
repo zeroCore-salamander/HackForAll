@@ -1,0 +1,58 @@
+type: ItemTurret
+name: Zero Bullet
+description: "[yellow]A turret [green]which can [orange]kill [red]the enemy [cyan]far (really far) away."
+health: 50000
+size: 1
+reloadTime: 1
+range: 5000
+shoots: 5
+rotateSpeed: 1000
+inaccuracy: 0
+ammoTypes: {
+	copper: {
+		speed: 1000
+		damage: 10000
+		width: 10
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifeTime: 10000
+		ammoMultiplier: 5
+	}
+	lead: {
+		speed: 1000
+		damage: 10000
+		width: 10
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifeTime: 10000
+		ammoMultiplier: 5
+	}
+	coal: {
+		speed: 1000
+		damage: 10000
+		width: 10
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifeTime: 10000
+		ammoMultiplier: 5
+	}
+	titanium: {
+		speed: 1000
+		damage: 10000
+		width: 10
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		lifeTime: 10000
+		ammoMultiplier: 5
+	}
+}
+requirements: [
+	copper/1
+]
+category: turret
+alwaysUnlocked: true
+research: core-shard
