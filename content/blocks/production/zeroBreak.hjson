@@ -1,0 +1,21 @@
+name: Zero Break
+description: "[gray]This drill can drill something in a blink of an eye."
+type: Drill
+health: 5000
+size: 2
+tier: 7
+drillTime: 1
+consumes: {
+	liquid: {
+		liquid: water
+		amount: 0.1
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+	copper/1
+]
+category: production
+alwaysUnlocked: true
+research: zeroBullet
