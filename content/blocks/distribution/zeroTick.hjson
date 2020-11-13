@@ -1,0 +1,14 @@
+type: Conveyor
+name: Zero Tick
+health: 1000
+solid: false
+floating: true
+insulated: true
+description: "[white]This Conveyor is made for [pink]zero-tick farms."
+requirements: [
+	copper/1
+]
+category: distribution
+speed: 5
+alwaysUnlocked: true
+research: zeroBreak
