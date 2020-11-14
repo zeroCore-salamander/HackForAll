@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: Thorium Translator
+description: "[cyan]Makes [pink]Thorium [cyan]from [blue]Titanium[cyan]."
+size: 2
+hasItems: true
+craftTime: 1
+updateEffect: pulverizeRed
+consumes: {
+  items: {
+    items: [
+      titanium/1
+    ]
+  }
+}
+requirements: [
+  copper/1
+]
+category: crafting
+alwaysUnlocked: true
+research: titaniumTranslator
+outputItem: thorium/1

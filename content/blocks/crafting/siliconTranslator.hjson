@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: Silicon Translator
+description: "[cyan]Makes [#222222]Silicon [cyan]from [yellow]Sand[cyan]."
+size: 2
+hasItems: true
+craftTime: 1
+updateEffect: pulverizeRed
+consumes: {
+  items: {
+    items: [
+      sand/1
+    ]
+  }
+}
+requirements: [
+  copper/1
+]
+category: crafting
+alwaysUnlocked: true
+research: sandTranslator
+outputItem: silicon/1
