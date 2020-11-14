@@ -13,7 +13,7 @@ Etc...
 -New Turret named 'Zero Bullet'
 -New Drill named 'Zero Break'
 -New Conveyor named 'Zero Tick'
--New crafting item(s) [If you can't see any that means I forgot and will add it in the next update (in a day maksimum)]
+-New crafting machine(s) [Like 'Copper Duplicator']
 
 -New Features will be coming soon
 
