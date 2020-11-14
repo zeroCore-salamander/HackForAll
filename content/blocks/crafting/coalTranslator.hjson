@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Copper Duplicator
-description: "[cyan]Makes [orange]2 copper [cyan]from [orange]1 copper[cyan]."
+name: Coal Translator
+description: "[cyan]Makes [gray]Coal [cyan]from [purple]Lead [cyan]."
 size: 2
 hasItems: true
 craftTime: 1
@@ -8,7 +8,7 @@ updateEffect: pulverizeRed
 consumes: {
   items: {
     items: [
-      copper/1
+      lead/1
     ]
   }
 }
@@ -17,5 +17,5 @@ requirements: [
 ]
 category: crafting
 alwaysUnlocked: true
-research: zeroTick
-outputItem: copper/2
+research: leadTranslator
+outputItem: coal/1

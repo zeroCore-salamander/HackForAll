@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Copper Duplicator
-description: "[cyan]Makes [orange]2 copper [cyan]from [orange]1 copper[cyan]."
+name: Sand Translator
+description: "[cyan]Makes [yellow]Sand [cyan]from [orange]Copper[cyan]."
 size: 2
 hasItems: true
 craftTime: 1
@@ -17,5 +17,5 @@ requirements: [
 ]
 category: crafting
 alwaysUnlocked: true
-research: zeroTick
-outputItem: copper/2
+research: coDupper
+outputItem: sand/1
